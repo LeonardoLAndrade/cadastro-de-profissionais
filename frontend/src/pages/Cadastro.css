@@ -1,0 +1,27 @@
+.mid {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e9e9;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+.box {
+  background-color: #d3d3d3;
+  max-width: 50rem;
+  max-height: 40rem;
+  padding: 1rem 2rem 2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 12rem;
+  border: 1px solid #585858;
+}
+
+.box input,
+select {
+  margin-bottom: 0.5rem;
+}
